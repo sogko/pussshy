@@ -1,0 +1,65 @@
+{
+  "name": "pussshy",
+  "baseUrl": "dist/",
+  "destDir": "./dist",
+  "skipHash": true,
+  "assets": [
+    {
+      "type": "file",
+      "name": "pussshy.css",
+      "files": [
+        "./src/pussshy.scss"
+      ],
+      "transform": [
+        "sass",
+        "autoprefixer"
+      ],
+      "watch": [
+        "./src/**/*.scss"
+      ]
+    },
+    {
+      "type": "file",
+      "name": "pussshy.min.css",
+      "files": [
+        "./src/pussshy.scss"
+      ],
+      "transform": [
+        "sass",
+        "autoprefixer",
+        "clean-css"
+      ],
+      "watch": [
+        "./src/**/*.scss"
+      ]
+    },
+    {
+      "type": "file",
+      "name": "pussshy.js",
+      "files": [
+        "./src/pussshy.js"
+      ],
+      "watch": [
+        "./src/**/*.js"
+      ]
+    },
+    {
+      "type": "file",
+      "name": "pussshy.min.js",
+      "files": [
+        "./src/pussshy.js"
+      ],
+      "transform": [
+        "uglify"
+      ],
+      "watch": [
+        "./src/**/*.js"
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "jquery",
+      "folder": "./bower_components/jquery/dist"
+    }
+  ]
+}
