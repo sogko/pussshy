@@ -10,7 +10,7 @@ New and modern features included in this version:
 * Supports multiple menus and multiple canvasses.
 * Custom class targets.
 * CommonJS-ready for your [browserify](http://browserify.org/)-ing needs  <br/> (exported to both `window` and `module` exports).
-* Included source SASS (.scss) files for you to easily customise it to your project needs
+* Included source SASS (.scss) files for you to easily customise it to your project needs.
 
 Plus all the goodness from [the original version](https://github.com/christophery/pushy/):
 
@@ -19,22 +19,20 @@ Plus all the goodness from [the original version](https://github.com/christopher
 * jQuery animation fallback for IE 7 - 9.
 * Responsive.
 
-----
 
 ## Requirements
 * jQuery v1.11.x and above
 
 For list of supported browsers, see [Browser support](#browser-support).
 
-----
 
 ## Quickstart
 1. Download Pussshy using one of the two methods
 	* using [Bower](http://bower.io): <br/>```bower install pussshy```
-	* directly from [packaged source](https://github.com/sogko/pussshy/archive/master.zip)
+	* directly from [packaged source](https://github.com/sogko/pussshy/archive/master.zip).
 	
 2. Include jQuery and Pussshy assets in your HTML.
-Note: jQuery script has to come before `pussshy.min.js`
+<br/>Note: jQuery script has to come before `pussshy.min.js`
     ```html
     <link rel="stylesheet" href="{path-to-src}/pussshy.min.css"/>
     
@@ -59,9 +57,10 @@ Note: jQuery script has to come before `pussshy.min.js`
 	<!-- insert content here -->
 	<h1>Pussshy Demo</h1>
 	
-	<!-- include the Pussshy menu-button somewhere --> <button class="pussshy__menu-button">Show menu</button>
+	<!-- include the Pussshy menu-button somewhere -->
+	<button class="pussshy__menu-button">Show menu</button>
 	
-	<!-- more content here --> 
+	<!-- more content here -->
 	<p>Ipsum lorem and all that</p>
 	<p>Ipsum lorem and all that</p>
 	<p>Ipsum lorem and all that</p>
@@ -81,32 +80,35 @@ Note: jQuery script has to come before `pussshy.min.js`
 
 5. Done!
 
-----
-
 ## API
 ### Components
 Pussshy requires the following HTML components to work:
 
 #### Content canvas
 Class name: ```pussshy__canvas```
+
 The content canvas contains content that will be moved off-canvas when the menu is active.
 
 You can have multiple canvasses for each Pussshy instances. 
 
 #### Off-canvas menu
 Class name: ```pussshy__menu```
+
 This is the menu that will start off from outside of the content canvas.
 
 #### Menu items
 Class name: ```pussshy__menu-items```
+
 Menu items should be defined within ```pussshy__menu```.
 
 #### Menu button
 Class name: ```pussshy__menu-button```
+
 Menu button will bring up the menu when clicked.
 
 #### Overlay
 Class name: ```pussshy__site-overlay```
+
 The overlay that covers the content canvas when the menu is active.
 
 Note:
