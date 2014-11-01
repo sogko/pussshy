@@ -164,7 +164,7 @@ Set the CSS selector for the [overlay component](#overlay).
 
 This is only needed if you are defining your own overlay.
 
-Typically, there is **not necessary to change** the `siteOverlayTarget` value.
+Typically, it is **not necessary to change** the `siteOverlayTarget` value.
 
 Default: `.pussshy__site-overlay`.
 Possible values: Valid CSS selector.
@@ -174,7 +174,7 @@ Set the CSS selector for the context.
 
 The context should contain [the four (4) main Pussshy components](#components).
 
-Typically, there is **not necessary to change** the `contextTarget` value.
+Typically, it is **not necessary to change** the `contextTarget` value.
 
 Default: `body`
 Possible values: Valid CSS selector.
