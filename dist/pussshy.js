@@ -44,13 +44,6 @@ var Pussshy = (function () {
     return (supported !== undefined && supported.length > 0 && supported !== 'none');
   })();
 
-  // important targets:
-  // menu button
-  // menu
-  // canvas
-
-  // direction can be specified
-
   // site overlay can be added automatically
   function Pussshy(options) {
     this.options = options || {};
@@ -170,7 +163,6 @@ var Pussshy = (function () {
       this.$menu.animate({left: '0px' }, this.menuSpeed);
       this.$canvas.animate({left: this.menuWidth}, this.menuSpeed);
     }
-
   }
 
   function closePushyFallback() {
