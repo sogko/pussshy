@@ -1,7 +1,7 @@
 # Pussshy
  Pussshy is a forked version of [Christopher Yee's Pushy](https://github.com/christophery/pushy/), a responsive off-canvas navigation menu using CSS transforms & transitions.
 
-It has been re-written to include several new modern features thats going to make you web application more robust. 
+It has been re-written to include several new modern features thats going to make your web application more robust. 
 
 ## Features
 New and modern features included in this version:
@@ -52,7 +52,7 @@ For list of supported browsers, see [Browser support](#browser-support).
 	</ul>
 </div>
 
-<!-- Pussshy content canvas --->
+<!-- Pussshy content canvas -->
 <div class="pussshy__canvas">
 	<!-- insert content here -->
 	<h1>Pussshy Demo</h1>
@@ -85,6 +85,7 @@ For list of supported browsers, see [Browser support](#browser-support).
 Pussshy requires the following HTML components to work:
 
 #### Content canvas
+
 Class name: ```pussshy__canvas```
 
 The content canvas contains content that will be moved off-canvas when the menu is active.
